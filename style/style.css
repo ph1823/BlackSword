@@ -1,0 +1,369 @@
+html
+{
+    background: url("/images/background.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+    width:945px;
+    margin:0 auto;
+}
+body {
+    background-color: rgba(0, 0,0, 0.1);
+    padding:13px 20px 10px 20px;
+    font-family:blue;
+    font-size:15px;
+}
+/* Footer */
+footer {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* CSS à ajoute rplus tard
+.hrdashed{color:#CCC;background-color: White;border: dashed;border-top-width: 1px; border-bottom-width: 0px; border-right-width: 0px; border-left-width: 0px;}
+hr{background:#d9d9d9;border-width:0;color:#d9d9d9;height:1px}
+hr.news5{background:#d9d9d9;border-width:0;color:#d9d9d9;border-style: dashed; border-bottom: 1px dashed #000;}
+*/
+/* Les id */
+/* New */
+#new
+{
+    background-color: white;
+    box-shadow: 1px 1px 12px #525252;
+    margin-bottom: 10px;
+    width: 570px;
+    padding: 10px;
+    float: left;
+}
+
+#informations {
+    background-color:white;
+    float:right;
+    padding:5px;
+    color: #5c5c5c;
+}
+
+#nav
+{
+    background: white 0% 0%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px 0px 0px 0px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+#information , .block , #new
+{
+    box-shadow: 1px 1px 12px #525252;
+}
+#info
+{
+    margin-bottom: 10px;
+}
+.widget
+{
+    background-color:white;
+    padding:10px;
+    margin: 10px 10px 20px 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+#content, #navigation, .block, #slider, #footer, .informations, .selectNews {
+    border:1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+/*===> NAVIGATION <===*/
+#navigation {
+    background: #FFF;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#navigation a.nav {
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+.sf-menu,
+.sf-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sf-menu { line-height: 1.0 }
+.sf-menu ul {
+    position: absolute;
+    top: -999em;
+    width: 10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li { width: 100% }
+.sf-menu li:hover {
+    visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+    float: left;
+    position: relative;
+}
+.sf-menu a.nav {
+    display: block;
+    position: relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    left: 0;
+    top: 40px; /* match top ul list item height */
+    z-index: 99;
+    background: #1F1F1E;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul { top: -999em }
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+    left: 10em; /* match ul width */
+    top: 0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul { top: -999em }
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+    left: 10em; /* match ul width */
+    top: 0;
+}
+
+.sf-menu a.nav{
+    padding: 0 15px;
+    height: 41px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: minecraftiaregular;
+    font-size: 12px;
+}
+
+.sf-menu a.nav.nm {
+    color: #5c5c5c;
+}
+.sf-menu a.reseaux:hover{
+    opacity:0;
+}
+
+
+.sf-menu a:hover.nav.nm{
+    color: #FFF;
+    background-image:url("/images/item/1.png");
+    text-shadow:1px 1px 2px black;
+}
+li.sfHover { color: #333 }
+.sf-menu li li {text-transform: none; }
+.sf-menu li li li { background: #333 }
+.sf-menu ul a {
+    color: #CCC;
+    padding: 0 1.2em;
+    height: 35px;
+    line-height: 35px;
+}
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+    padding-right: 2.25em;
+    min-width: 1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+    position: absolute;
+    display: block;
+    right: .75em;
+    width: 9px;
+    height: 5px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url('images/arrows-down.png');
+}
+a > .sf-sub-indicator {
+    /* give all except IE6 the correct values */
+    top: 18px;
+    background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus.> .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+    background-position: -9px 0px; /* arrow hovers for modern browsers*/
+}
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator {
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    background: url('images/arrows-side.png');
+}
+.sf-menu ul a > .sf-sub-indicator { background-position: 0 0 }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator.nav {
+    background-position: -5px 0; /* arrow hovers for modern browsers*/
+}
+
+.reseaux{
+    float:right;
+    padding:4px 3px 0px 0px;
+}
+
+.reseaux img {margin:0 2px;}
+
+.reseaux a:hover{
+    opacity: 0.9;
+}
+
+#navigation a.test {
+    color:red;
+    display: inline;
+    vertical-align: middle;
+}
+
+#navigation img{
+    width:32px;
+}
+
+#navigation ul ul {
+    display:none;
+    left: 164px;
+    position:absolute;
+    top: -5px; 
+}
+
+#navigation li:hover ul.niveau2 { display:block; }
+#navigation li:sfhover ul.niveau2 { display:block; }
+
+#navigation .niveau2 li{
+    background-color:#1F1F1E;
+    color:white;
+}
+
+#navigation .niveau2 li:hover{
+    background-color:#333333;
+}
+
+#navigation .autre:hover {
+    background-color:#333333;
+}
+
+#navigation .sf-menu a.nav.autre {
+    color: white;
+}
+
+#navigation .arrow {
+    width:9px;
+    height:5px;
+    top:-3px;
+    position: relative;
+}
+
+#header {
+    padding-bottom:40px;
+    height:50px;
+}
+
+#header .header {
+    float: left;
+    width:600px;
+    margin-top: 10px;
+    padding:5px 0 0 0px;
+}
+
+#header .header img {
+    max-height:60px;
+    max-width:200px;
+    padding-right:10px;
+    position: relative;
+    bottom:6px;
+}
+
+#header .header h1 {
+    font-family: Oswald-Bold;
+    font-size: 30px;
+    margin:1px 0px;
+    text-shadow: 1px 1px 2px gray;
+    color:white;
+}
+
+#header .header h2 {
+    padding-top:10px;
+    font-family: Glegoo;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+#header .informations {
+    background-color:white;
+    float:right;
+    padding:5px;
+    color: #5c5c5c;
+}
+
+#menudroite {
+    float: right;
+    width:250px;
+    margin-left: 10px;
+}
+
+#menudroite h3{
+    background-image:url("/images/item/5.png");
+    text-shadow:1px 1px 2px black;
+    color:white;
+    padding:5px;
+    margin:5px 5px 0px 5px;
+    border-radius:2px;
+}
+
+#menudroite h3 a {
+    color:white;
+}
+
+.block {
+    background-color:white;
+    padding:10px;
+    margin-bottom: 10px;
+    float: right;
+    overflow: hidden;
+}
+
+#connexion {
+    background-image:url("/images/item/12.png");
+    text-shadow:1px 1px 2px gray;
+    margin:0px 10px 10px 10px;
+    padding:5px;
+}
+
+#connexion input[type=text], input[name=motdepasse] {
+    width:99%;
+    border-radius: 0px;
+    border:1px solid #AAA;
+}
+
+#connexion input[type=submit]{
+    border:1px solid black;
+    background-image:url("/images/item/108.png");
+    padding:3px;
+    margin:5px;
+    border-radius:5px;
+    text-shadow:1px 1px 2px black;
+    color:white;
+    font-family: blue;
+    font-weight:bold;
+    cursor:pointer;
+}

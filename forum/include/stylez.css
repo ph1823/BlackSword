@@ -1,0 +1,47 @@
+body
+{
+	background-color: rgb(255, 223, 176);
+	margin: 0;
+	padding: 0;
+	font-family: "Karla","Arial";
+	font-size: 14px;
+	color: black;
+}
+header, footer, nav, section, article, aside
+{
+	display: block;
+	width: auto;
+	height: auto;
+}
+ul, li, h1, h2, h3, h4, h5, h6, span, p
+{
+	padding: 0;
+	margin: 0;
+}
+.hide
+{
+	display: none;
+}
+h1
+{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	margin-top:  20px;
+}
+#Cforum
+{
+	width:  780px;
+	min-height: 300px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 1px solid rgb(209, 127, 3);
+}
+
+h3
+{
+    color:orange;
+	text-align: center;
+}

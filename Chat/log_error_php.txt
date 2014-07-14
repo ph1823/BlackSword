@@ -1,0 +1,36 @@
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Warning:  include(include/ini.php): failed to open stream: No such file or directory in C:\wamp\www\BlacSword\Chat\index.php on line 13
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Warning:  include(): Failed opening 'include/ini.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\BlacSword\Chat\index.php on line 13
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Warning:  include(include/head.php): failed to open stream: No such file or directory in C:\wamp\www\BlacSword\Chat\index.php on line 14
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Warning:  include(): Failed opening 'include/head.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\BlacSword\Chat\index.php on line 14
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Notice:  Undefined variable: bdd in C:\wamp\www\BlacSword\Chat\index.php on line 34
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\BlacSword\Chat\index.php on line 34
+[12-Jul-2014 23:01:19 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Notice:  Undefined variable: titre in C:\wamp\www\BlacSword\include\head.php on line 12
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:44 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\Chat\index.php:13
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Champ 'date_ajout' inconnu dans field list' in C:\wamp\www\BlacSword\Chat\index.php:33
+Stack trace:
+#0 C:\wamp\www\BlacSword\Chat\index.php(33): PDO->query('SELECT pseudo, ...')
+#1 {main}
+  thrown in C:\wamp\www\BlacSword\Chat\index.php on line 33
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Notice:  Undefined variable: titre in C:\wamp\www\BlacSword\include\head.php on line 12
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 23:01:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\Chat\index.php:0
+[12-Jul-2014 23:01:44 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\Chat\index.php:13
+[12-Jul-2014 23:01:44 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Champ 'date_ajout' inconnu dans field list' in C:\wamp\www\BlacSword\Chat\index.php:33
+Stack trace:
+#0 C:\wamp\www\BlacSword\Chat\index.php(33): PDO->query('SELECT pseudo, ...')
+#1 {main}
+  thrown in C:\wamp\www\BlacSword\Chat\index.php on line 33

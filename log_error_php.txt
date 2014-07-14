@@ -1,0 +1,121 @@
+[08-Jul-2014 15:31:56 Europe/Paris] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in C:\wamp\www\WheazPixel\index.php on line 218
+[08-Jul-2014 15:31:56 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:31:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\index.php:0
+[08-Jul-2014 15:31:56 Europe/Paris] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WheazPixel\index.php on line 218
+[08-Jul-2014 15:31:56 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:31:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\index.php:0
+[08-Jul-2014 15:36:13 Europe/Paris] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in C:\wamp\www\WheazPixel\index.php on line 218
+[08-Jul-2014 15:36:13 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:36:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\index.php:0
+[08-Jul-2014 15:36:13 Europe/Paris] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WheazPixel\index.php on line 218
+[08-Jul-2014 15:36:13 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:36:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\index.php:0
+[08-Jul-2014 15:40:32 Europe/Paris] PHP Notice:  Undefined variable: titre in C:\wamp\www\WheazPixel\include\head.php on line 7
+[08-Jul-2014 15:40:32 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:40:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\post.php:0
+[08-Jul-2014 15:40:32 Europe/Paris] PHP   2. include() C:\wamp\www\WheazPixel\post.php:14
+[08-Jul-2014 15:40:33 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Champ 'id_articles' inconnu dans where clause' in C:\wamp\www\WheazPixel\post.php:70
+Stack trace:
+#0 C:\wamp\www\WheazPixel\post.php(70): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\wamp\www\WheazPixel\post.php on line 70
+[08-Jul-2014 15:40:33 Europe/Paris] PHP Notice:  Undefined variable: titre in C:\wamp\www\WheazPixel\include\head.php on line 7
+[08-Jul-2014 15:40:33 Europe/Paris] PHP Stack trace:
+[08-Jul-2014 15:40:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\WheazPixel\post.php:0
+[08-Jul-2014 15:40:33 Europe/Paris] PHP   2. include() C:\wamp\www\WheazPixel\post.php:14
+[08-Jul-2014 15:40:33 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Champ 'id_articles' inconnu dans where clause' in C:\wamp\www\WheazPixel\post.php:70
+Stack trace:
+#0 C:\wamp\www\WheazPixel\post.php(70): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\wamp\www\WheazPixel\post.php on line 70
+[12-Jul-2014 22:40:58 Europe/Paris] PHP Fatal error:  Cannot redeclare bdd() (previously declared in C:\wamp\www\BlacSword\include\ini.php:4) in C:\wamp\www\BlacSword\include\ini.php on line 15
+[12-Jul-2014 22:40:58 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:40:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:40:58 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:14
+[12-Jul-2014 22:43:05 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 La table 'u297566589_ph.nom_site' n'existe pas' in C:\wamp\www\BlacSword\include\ini.php:46
+Stack trace:
+#0 C:\wamp\www\BlacSword\include\ini.php(46): PDO->query('SELECT info_mem...')
+#1 C:\wamp\www\BlacSword\include\head.php(2): include('C:\\wamp\\www\\Bla...')
+#2 C:\wamp\www\BlacSword\index.php(12): include('C:\\wamp\\www\\Bla...')
+#3 {main}
+  thrown in C:\wamp\www\BlacSword\include\ini.php on line 46
+[12-Jul-2014 22:43:35 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 La table 'u297566589_ph.info_membre' n'existe pas' in C:\wamp\www\BlacSword\include\ini.php:46
+Stack trace:
+#0 C:\wamp\www\BlacSword\include\ini.php(46): PDO->query('SELECT nom_site...')
+#1 C:\wamp\www\BlacSword\include\head.php(2): include('C:\\wamp\\www\\Bla...')
+#2 C:\wamp\www\BlacSword\index.php(12): include('C:\\wamp\\www\\Bla...')
+#3 {main}
+  thrown in C:\wamp\www\BlacSword\include\ini.php on line 46
+[12-Jul-2014 22:43:54 Europe/Paris] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:43:54 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:43:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:43:54 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:45:17 Europe/Paris] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:45:17 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:45:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:45:17 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:45:17 Europe/Paris] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:45:17 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:45:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:45:17 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:45:30 Europe/Paris] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:45:30 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:45:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:45:30 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:46:02 Europe/Paris] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:46:02 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:46:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:46:02 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:46:43 Europe/Paris] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\BlacSword\include\ini.php on line 48
+[12-Jul-2014 22:46:43 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:46:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:46:43 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:47:52 Europe/Paris] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\BlacSword\include\ini.php on line 49
+[12-Jul-2014 22:47:52 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:47:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:47:52 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:47:53 Europe/Paris] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\BlacSword\include\ini.php on line 49
+[12-Jul-2014 22:47:53 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:47:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:47:53 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:47:54 Europe/Paris] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\BlacSword\include\ini.php on line 49
+[12-Jul-2014 22:47:54 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:47:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:47:54 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:48:06 Europe/Paris] PHP Notice:  Undefined property: PDOStatement::$fetch in C:\wamp\www\BlacSword\include\ini.php on line 49
+[12-Jul-2014 22:48:06 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   3. include() C:\wamp\www\BlacSword\include\head.php:2
+[12-Jul-2014 22:48:06 Europe/Paris] PHP Notice:  Undefined property: PDOStatement::$fetch in C:\wamp\www\BlacSword\include\ini.php on line 49
+[12-Jul-2014 22:48:06 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:48:06 Europe/Paris] PHP   3. include() C:\wamp\www\BlacSword\include\head.php:2
+[12-Jul-2014 22:48:18 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:48:18 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:48:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:48:18 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:49:22 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:49:22 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:49:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:49:22 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:49:43 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\BlacSword\include\head.php on line 7
+[12-Jul-2014 22:49:43 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:49:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:49:43 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:50:17 Europe/Paris] PHP Fatal error:  Cannot use object of type PDOStatement as array in C:\wamp\www\BlacSword\include\ini.php on line 51
+[12-Jul-2014 22:50:17 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:50:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:50:17 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:50:17 Europe/Paris] PHP   3. include() C:\wamp\www\BlacSword\include\head.php:2
+[12-Jul-2014 22:50:31 Europe/Paris] PHP Fatal error:  Cannot use object of type PDOStatement as array in C:\wamp\www\BlacSword\include\ini.php on line 51
+[12-Jul-2014 22:50:31 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:50:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:50:31 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:50:31 Europe/Paris] PHP   3. include() C:\wamp\www\BlacSword\include\head.php:2
+[12-Jul-2014 22:51:02 Europe/Paris] PHP Fatal error:  Cannot use object of type PDOStatement as array in C:\wamp\www\BlacSword\include\ini.php on line 51
+[12-Jul-2014 22:51:02 Europe/Paris] PHP Stack trace:
+[12-Jul-2014 22:51:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\BlacSword\index.php:0
+[12-Jul-2014 22:51:02 Europe/Paris] PHP   2. include() C:\wamp\www\BlacSword\index.php:12
+[12-Jul-2014 22:51:02 Europe/Paris] PHP   3. include() C:\wamp\www\BlacSword\include\head.php:2
